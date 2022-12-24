@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Open+Sans:wght@600&family=Oswald&family=Roboto:ital,wght@0,700;1,400&display=swap');
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    margin: auto;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E6C00B;
+}
+/*header*/
+header {
+    width: 1640px;
+    
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.bar__logo {
+    height: 75px;
+}
+.bar__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.list__item {
+    margin-right: 60px;
+    color: #99400F;
+    font-size: 24px;
+    font-weight: bold;
+}
+.list__item:last-child {
+    margin-right: 0;
+}
+.nav__line {
+    width: 100%;
+    border: 1px solid black;
+    filter: blur(2px);
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.main__wholesale-products {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.wholesale-products__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.cards__item {
+    margin-right: 20px;
+}
+.cards__item:last-child {
+    margin-right: 0;
+}
+.wholesale-products__text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+    color: #99400F;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.item__item-name {
+    background-color: #99400F;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -3px;
+}
+.item-name__text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #E6C00B;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main__option-products {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    background-color: #99810F;
+    
+}
+.option-products__item {
+    display: flex;
+    justify-content: space-around;
+    width: 395px;
+    height: 100px;
+    align-items: center;
+    background-color: #99400F;
+    color: #E6C00B;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.option-products__item:last-child {
+    margin-right: 0;
+}
+.item__text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+.main__banner {
+    margin: auto;
+    width: 1920px;
+    height: 539px;
+}
+.main__content-about {
+    width: 1640px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content-about__first-block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.content-about__second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.first-block__text {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: #99400F;
+    line-height: 2.5;
+}
+.first-block__list {
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #99400F;
+    line-height: 2;
+}
+.second-block__text {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    color: #99400F;
+    margin-bottom: 20px;
+}
+.second-block__image {
+    margin-bottom: 20px;
+}
+.main__wrapper {
+    background-color: white;
+}
+.main__product-content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1640px;
+    align-items: center;
+    margin-top: 70px;
+}
+.product-content__header-text {
+    color: #99400F;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.product-content__products-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.products-cards__card-item {
+    width: 395px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-item__cart-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    background-color: #E6C00B;
+    border-radius: 20px;
+}
+.card-item__item-name {
+    color: #99400F;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.card-item__item-price, .cart-button__text{
+    color: #99400F;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.main__popular-categories {
+    width: 1640px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 70px;
+}
+.popular-categories__text {
+    color: #99400F;
+    font-size: 32px;
+    font-family: 'Comfortaa', cursive;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.popular-categories__banner-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.banner-images__item-image {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.banner-images__item-image:nth-child(3), .banner-images__item-image:nth-child(5) {
+    margin-right: 0;
+}
+
+/* footer */
+
+footer {
+    background-color: #99810F;
+    display: flex;
+}
+.footer__info {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.info__company {
+    display: flex;
+    flex-direction: column;
+    width: 533px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.company__items {
+    display: flex;
+    align-items: center;
+}
+.items__company-text {
+    margin: 0;
+    margin-left: 40px;
+    color: #E6C00B;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+.company__company-text {
+    color: #E6C00B;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+.info__popular-sections {
+    display: flex;
+    flex-direction: column;
+    width: 533px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.popular-sections__text {
+    color: #E6C00B;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.popular-sections__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #E6C00B;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+.popular-sections__item {
+    margin-top: 10px;
+}
+.info__contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 533px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Open+Sans:wght@600&family=Oswald&family=Roboto:ital,wght@0,700;1,400&display=swap');
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 1920px;
+    
+}
+.main__base-info {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1640px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.base-info__product-image {
+    width: 672px;
+}
+.base-info__other-info {
+    max-width: 928px;
+    margin-left: 40px;
+}
+.other-info__product-name {
+    color: #99400F;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    margin-top: 50px;
+}
+.other-info__categories {
+    color: #99400F;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 30px;
+}
+.other-info__price {
+    color: #99400F;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 30px;
+}
+.other-info__button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    background-color: #E6C00B;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 10px;
+    color: #99400F;
+    margin-top: 50px;
+}
+.main__product-description {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1640px;
+    margin-bottom: 50px;
+}
+.product-description__about-product {
+    display: flex;
+    flex-direction: column;
+    color: #99400F;
+    font-family: 'Comfortaa', cursive;
+    margin-right: 40px;
+}
+.about-product__product-list {
+    list-style: none;
+    padding: 0;
+}
+h1 {
+    text-transform: uppercase;
+    color: #99400F;
+    font-family: 'Comfortaa', cursive;
+}
+.product-description__brend-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #99400F;
+    font-family: 'Comfortaa', cursive;
+}
+.brend-product__brend-image {
+    width: 672px;
+}
+.main__other-products {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.other-products__cards-product {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cards-product__product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #99400F;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    width: 395px;
+    margin-right: 20px;
+}
+.cards-product__product-item:last-child {
+    margin: 0;
+}
+
+
+.product-item__cart-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    
+    background-color: #E6C00B;
+    border-radius: 20px;
+}
