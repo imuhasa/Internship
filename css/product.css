@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Open+Sans:wght@600&family=Oswald&family=Roboto:ital,wght@0,700;1,400&display=swap');
 body {
     font-family: 'Comfortaa', cursive;
-    font-family: 'Open Sans', sans-serif;
-    
 }
 
 main {
@@ -78,6 +76,9 @@ main {
     list-style: none;
     padding: 0;
 }
+.button__cart {
+    height: 30px;
+}
 h1 {
     text-transform: uppercase;
     color: #99400F;
@@ -119,8 +120,6 @@ h1 {
 .cards-product__product-item:last-child {
     margin: 0;
 }
-
-
 .product-item__cart-button {
     display: flex;
     justify-content: space-around;
@@ -130,4 +129,167 @@ h1 {
     
     background-color: #E6C00B;
     border-radius: 20px;
+}
+@media screen and (max-width:834px){
+    .nav__bar {
+        max-width: 734px;  
+    }
+    img.bar__logo {
+        width: 39px;
+        height: 37px;
+    }
+    .list__item {
+        font-size: 16px;
+    }
+    .main__base-info {
+        max-width: 834px;
+        margin-left: 30px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .base-info__product-image {
+        width: 294px;
+        height: 294px;
+    }
+    .other-info__product-name, h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .other-info__categories, .other-info__price {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .base-info__other-info {
+        width: 410px;
+    }
+    .other-info__button {
+        width: 231px;
+        margin-top: 20px;
+        height: 36px;
+    }
+    .button__cart {
+        width: 15px;
+        height: 15px;
+    }
+    p.button__text {
+        font-size: 15px;
+    }
+    .main__product-description {
+        margin-top: 50px;
+        width: 734px;
+    }
+    .brend-product__brend-image {
+        width: 294px;
+    }
+    .about-product__text, .about-product__product-list {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .main__other-products, .other-products__cards-product {
+        width: 734px;
+    }
+    .cards-product__product-item, .product-item__item-image {
+        width: 231px;
+    }
+    .cards-product__product-item:last-child {
+        display: none;
+    }
+    .cards-product__product-item {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .nav__bar {
+        max-width: 400px;  
+    }
+    img.bar__logo {
+        width: 26px;
+        height: 25px;
+    }
+    .list__item {
+        font-size: 13px;
+    }
+    .main__base-info {
+        max-width: 400px;
+        margin-left: 30px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .base-info__product-image {
+        width: 160px;
+        height: 160px;
+    }
+    .other-info__product-name, h1 {
+        font-size: 13px;
+    }
+    .other-info__categories, .other-info__price {
+        font-size: 12px;
+    }
+    .other-info__button {
+        width: 170px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    p.button__text {
+        margin: 0;
+        font-size: 12px;
+    }
+    .button__cart {
+        width: 10px;
+        height: 10px;
+    }
+    .about-product__text, .about-product__product-list {
+        font-size: 12px;
+    }
+    .product-description__about-product {
+        margin-right: 10px;
+        width: 228px;
+    }
+    .brend-product__brend-image {
+        width: 160px;
+    }
+    .main__product-description {
+        width: 400px;
+    }
+    .main__other-products, .other-products__cards-product {
+        width: 400px;
+    }
+    .cards-product__product-item, .product-item__item-image {
+        width: 194px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .cards-product__product-item:nth-child(2) {
+        margin-right: 0;
+    }
+    .cards-product__product-item:nth-child(3) {
+        display: none;
+    }
+    .main__product-description {
+        margin-bottom: 30px;
+    }
+    .product-item__cart-button {
+        height: 30px;
+    }
+    .product-item__item-name, p.product-item__item-price {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .main__other-products {
+        margin-bottom: 20px;
+    }
+    div.footer__info, .company__items, .company__company-text, div.info__popular-sections, div.info__contact-info {
+        width: 400px;
+    }
+    .items__company-text {
+        font-size: 12px;
+    }
+    .popular-sections__text {
+        font-size: 13px;
+    }
+    .company__company-text, .popular-sections__item {
+        font-size: 12px;
+    }
 }
